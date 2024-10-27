@@ -1,0 +1,48 @@
+form.create-product, form.update-products {
+    max-width: 550px;
+}
+
+#single-product-form input#update-product {
+    background: #42f560;
+    display: none;
+}
+
+#single-product-form input#edit-product {
+    background: #429cf5;
+}
+
+#single-product-form input#delete-product {
+    background: #f54242;
+}
+
+#single-product-form input#back-product {
+    color: #fff;
+    background: #3c4241;
+}
+
+.update-products .form-element::placeholder {
+    color: #000;
+}
+
+.products-table .delete-single-product, .read-single-product, .add-single-product {
+    color: #fff;
+    background: #42f560;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.products-table .delete-single-product {
+    background: #f54242;
+}
+
+.products-table .read-single-product:hover {
+    color: #fff;
+}
+
+.add-single-product {
+    background: #3c4241;
+}
+
+.add-single-product:hover {
+    color: #fff;
+}

@@ -1,0 +1,31 @@
+custom_product.all-products:
+  path: '/admin/content/all-products'
+  defaults:
+    _controller: '\Drupal\custom_product\Controller\ProductsController::products'
+    _title: 'Products'
+  requirements: 
+    _permission: 'administer content'
+
+custom_product.delete-product:
+  path: '/admin/content/delete-product/{product_id}'
+  defaults:
+    _controller: '\Drupal\custom_product\Controller\ProductsController::deleteProduct'
+    _title: 'Product'
+  requirements: 
+    _permission: 'administer content'
+
+custom_product.create-product:
+  path: '/admin/config/custom_product/create-product'
+  defaults:
+    _form: '\Drupal\custom_product\Form\CreateProductForm'
+    _title: 'Create Product'
+  requirements:
+    _permission: 'administer site configuration'
+
+custom_product.update-product:
+  path: '/admin/config/custom_product/update-product/{product_id}'
+  defaults:
+    _form: '\Drupal\custom_product\Form\UpdateProductForm'
+    _title: 'Update Product'
+  requirements:
+    _permission: 'administer site configuration'

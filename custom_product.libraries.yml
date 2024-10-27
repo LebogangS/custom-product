@@ -1,0 +1,9 @@
+custom-product:
+  version: 1.0
+  css:
+    theme:
+      src/css/custom-product.css: {}
+  js: 
+    src/js/custom-product.js: {}
+  dependencies:
+    - core/jquery

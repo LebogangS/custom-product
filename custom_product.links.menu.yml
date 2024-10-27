@@ -1,0 +1,6 @@
+custom_product.admin:
+  title: 'Products'
+  description: 'This takes you to products page'
+  parent: system.admin_config_development
+  route_name: custom_product.all-products
+  weight: 100
