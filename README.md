@@ -4,8 +4,8 @@ This module performs simple CRUD operations utilizing JSON:API and Drupal
 
 Read below about the two Technologies:
 
-- [JSON:API](https://getcomposer.org/)
-- [Drupal](https://www.docker.com/)
+- [JSON:API](https://www.drupal.org/docs/core-modules-and-themes/core-modules/jsonapi-module/jsonapi)
+- [Drupal](https://www.drupal.org/documentation)
 
 ## Compatibility
 
